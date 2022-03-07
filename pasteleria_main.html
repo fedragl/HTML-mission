@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tajiko bakes!</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #b5ebae;
+            padding: 10px;
+            font-size: 20px;
+            color: #df6268;
+            display: flex;
+        }
+
+        nav {
+            text-align: right;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin: 0;
+        }
+
+        nav a {
+            padding: .7em 1.25em;
+        }
+
+        body {
+            background-color: #f0d6d7;
+        }
+
+        section {
+            background-color: #f0acae;
+        }
+
+        section table {
+            background-color: #d0f0ccbe;
+        }
+
+        footer {
+            background-color: #d0f0cc;
+            padding: 50px;
+            text-align: center;
+            color: #df6268;
+        }
+        footer ul{
+            list-style-type: none;
+            padding: 5;
+            text-align: right;
+        }
+        footer li{
+            display: inline;
+            margin: 5;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <p><img src="logo.png" alt="Perritos lindos" width="100px"></p>
+        <p>Tajiko bakes!</p>
+        <nav>
+            <ul>
+                <li><a>Pasteles</a></li>
+                <li><a>Realizar pedido</a></li>
+                <li><a>Clientes Satisfechos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div>
+        <h1>El fandom sabor a vainilla</h1>
+        <img src="https://i.imgur.com/84QT6os.jpeg" alt="Perritos lindos" width="200px">
+        <p>Preparados para hacer el pastel de tus sueños</p>
+    </div>
+
+    <section>
+        <table>
+            <tr>
+                <th></th>
+                <th>The red festival</th>
+            </tr>
+            <tr>
+                <td><img src="logo.png"  width="100px"></td>
+                <td>
+                    <p>Delicioso pastel de red velte con relleno de crema pastelera</p>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>$300</td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th></th>
+                <th>Vanilla nice</th>
+            </tr>
+            <tr>
+                <td><img src="https://i.imgur.com/84QT6os.jpeg" alt="Perritos lindos" width="100px"></td>
+                <td>
+                    <p>La especialidad de la casa, hecho con concentrado de vainilla natural relleno de ganache de
+                        chocolate</p>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>$300</td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th></th>
+                <th>Permission to chocolate</th>
+            </tr>
+            <tr>
+                <td><img src="logo.png"  width="100px"></td>
+                <td>
+                    <p>Delicioso pastel de chocolate con cubierta de ganach de chocolate</p>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>$300</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <br><br>
+        <table>
+            <tr>
+                <th>Sabores</th>
+                <th>Toppings</th>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" id="flavor1" name="flavor" value="Vainilla">
+                    <label for="flavor1">Vainilla</label><br>
+                    <input type="checkbox" id="flavor2" name="flavor" value="Red velvet">
+                    <label for="flavor2">Red velvet</label><br>
+                    <input type="checkbox" id="flavor3" name="flavor" value="Chocolate">
+                    <label for="flavor3">Chocolate</label><br>
+                    <input type="checkbox" id="flavor4" name="flavor" value="Zanahoria">
+                    <label for="flavor4">Zanahoria</label><br>
+                </td>
+                <td>
+                    <input type="checkbox" id="topping1" name="flavor" value="Vainilla">
+                    <label for="topping1">Sprinkles de estrellas</label><br>
+                    <input type="checkbox" id="topping2" name="flavor" value="Red velvet">
+                    <label for="topping2">Sprinkles de tipo pildora</label><br>
+                    <input type="checkbox" id="topping3" name="flavor" value="Chocolate">
+                    <label for="topping3">Sprinkles corazones</label><br>
+                    <input type="checkbox" id="topping4" name="flavor" value="Zanahoria">
+                    <label for="topping4">Korean style deco</label><br>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <br><br>
+        <a>Solicitud de pastel</a><br>
+        <input type="text" id="bame" value="Nombre completo"><br>
+        <input type="text" id="phonenumber" value="Numero de telefono"><br>
+        <input type="text" id="cellphonenumber" value="Numero de celular"><br>
+        <input type="text" id="email" value="Correo electronico"><br>
+        <input type="submit" id="bot1" name="bot1" value="boton" onclick="alert('Pedido enviado')">
+    </section>
+
+    <footer>
+        <nav>
+        <ul>
+            <li>(55)833 235 9890</li>
+            <li>Colonia San Jerardo #214 Tampico, TAMPS.</li>
+            <li>Lunes - Sabado 10:00 am - 4:00 pm</li>
+        </ul></nav>
+    </footer>
+</body>
+
+</html>
